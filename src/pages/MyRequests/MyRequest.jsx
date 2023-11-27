@@ -40,7 +40,7 @@ const MyRequest = () => {
                 },
             };
             const { data } = await axios.post(
-                "http://localhost:5000/api/request/display",
+                "https://splitwise-backend.onrender.com/api/request/display",
                 {
                     receiverEmail: userInfo?.User?.emailId,
                     flag: false
@@ -78,7 +78,7 @@ const MyRequest = () => {
             };
 
             const { data } = await axios.post(
-                "http://localhost:5000/api/request/acceptinvite",
+                "https://splitwise-backend.onrender.com/api/request/acceptinvite",
                 {
                     id: id
                 },
@@ -117,7 +117,7 @@ const MyRequest = () => {
             };
 
             const { data } = await axios.post(
-                "http://localhost:5000/api/request/rejectinvite",
+                "https://splitwise-backend.onrender.com/api/request/rejectinvite",
                 {
                     id: id
                 },

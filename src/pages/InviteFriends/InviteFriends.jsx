@@ -64,7 +64,7 @@ const InviteFriends = () => {
                 };
 
                 const { data } = await axios.post(
-                    "http://localhost:5000/api/request/invite",
+                    "https://splitwise-backend.onrender.com/api/request/invite",
                     {
                         "senderEmail": userInfo?.User?.emailId,
                         "receiverEmail": invite,
@@ -109,7 +109,7 @@ const InviteFriends = () => {
             };
 
             const { data } = await axios.get(
-                "http://localhost:5000/api/auth/getalluser",
+                "https://splitwise-backend.onrender.com/api/auth/getalluser",
                 config
             );
 

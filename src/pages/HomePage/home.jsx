@@ -52,7 +52,7 @@ const Home = () => {
             };
 
             const { data } = await axios.post(
-                "http://localhost:5000/api/expenses/getexpenses",
+                "https://splitwise-backend.onrender.com/api/expenses/getexpenses",
                 {
                     Email: userInfo?.User?.emailId,
                 },
@@ -88,7 +88,7 @@ const Home = () => {
             };
 
             const { data } = await axios.post(
-                "http://localhost:5000/api/expenses/addexpense",
+                "https://splitwise-backend.onrender.com/api/expenses/addexpense",
                 {
                     id: info?._id,
                     cost: Number(cost),
@@ -127,7 +127,7 @@ const Home = () => {
             };
 
             const { data } = await axios.post(
-                "http://localhost:5000/api/expenses/settleup",
+                "https://splitwise-backend.onrender.com/api/expenses/settleup",
                 {
                     id: id
                 },
