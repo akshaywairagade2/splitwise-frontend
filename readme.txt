@@ -1,3 +1,6 @@
+(0) To install the libraries 
+    - npm i
+
 (1) command to Run Frontend:
     - npm start
 
