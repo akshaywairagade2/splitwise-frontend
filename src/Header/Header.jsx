@@ -74,7 +74,7 @@ const Header = () => {
                         >
                             Home
                         </Box>
-                        <Box as="a" href={'/friends'}
+                        {/* <Box as="a" href={'/friends'}
                             color={path == "/friends" ? "blue" : null}
                             _hover={{
                                 color: "white",
@@ -84,7 +84,7 @@ const Header = () => {
                             padding={2}
                         >
                             Friends
-                        </Box>
+                        </Box> */}
                         <Box as="a" href={'/invitefriends'}
                             color={path == "/invitefriends" ? "blue" : null}
                             _hover={{

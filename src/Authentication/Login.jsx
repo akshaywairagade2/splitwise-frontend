@@ -84,7 +84,7 @@ const Login = () => {
 
 
             localStorage.setItem("userInfo", JSON.stringify(data));
-            setTimeout(() => { navigate("/") }, 500);
+            setTimeout(() => { navigate("/") }, 200);
 
 
         } catch (error) {
@@ -96,7 +96,6 @@ const Login = () => {
                 isClosable: true,
                 position: "bottom",
             });
-
         }
     };
 

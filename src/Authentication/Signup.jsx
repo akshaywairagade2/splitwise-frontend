@@ -93,7 +93,7 @@ const SignUp = () => {
             });
 
             localStorage.setItem("userInfo", JSON.stringify(data));
-            setTimeout(() => { navigate("/") }, 500);
+            setTimeout(() => { navigate("/") }, 200);
 
         } catch (error) {
 

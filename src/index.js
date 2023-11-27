@@ -19,12 +19,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider>
     <Provider store={store}>
-      {/* <BrowserRouter> */}
       <GoogleOAuthProvider
         clientId="798079972938-m4rquq9tk1q01mq6op742o1e87mm44tn.apps.googleusercontent.com">
         <App />
       </GoogleOAuthProvider>
-      {/* </BrowserRouter> */}
     </Provider>
   </ChakraProvider>
 );
